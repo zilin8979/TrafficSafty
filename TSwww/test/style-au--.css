@@ -1,0 +1,193 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+  max-width: 100%;
+  margin: auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+p,a,input,label,textarea,span,ul,li{
+  font-family: 'Roboto', sans-serif;
+}
+
+#intro .jumbotron{
+  height:50vh;
+  background:rgba(156, 155, 152,0.65);
+}
+
+#intro .container{
+  position:relative;
+  top:5%;
+  transform:transformY(-5%);
+}
+
+#intro h1{
+  font-size:8vh;
+  font-weight:650;
+  line-height:1.5;
+  color:#fffbed;
+}
+
+#intro p{
+  font-size:16px;
+  font-weight:600;
+  line-height:1.25;
+  color:black;
+}
+
+#intro .btn{
+  font-weight:600;
+  background:#cc8449;
+  padding:9px 25px;
+  color:white;
+  border-radius:5px;
+}
+
+#詩 .container{
+  display: block;
+  margin:2.5%;
+  width:250px;
+  height:70vh;
+  border-radius:15px;
+  background-color:#f5e9d3;
+  padding: 15px;
+  float: left;
+}
+
+#詩 h1{
+  text-align: center;
+  border: 3px solid green;
+}
+
+#詩 img{
+  display: block;
+  margin: auto;
+  width: 40%;
+  border: 3px solid green;
+}
+
+#詩 p{
+  text-align: center;
+  border: 3px solid green;
+}
+
+#詩 .btn{
+  font-weight:600;
+  background:#cc8449;
+  padding:9px 25px;
+  color:white;
+  border-radius:5px;
+}
+
+#珊 .container{
+  display: block;
+  margin:2.5%;
+  width:250px;
+  height:70vh;
+  border-radius:15px;
+  background-color:#f5e9d3;
+  padding: 15px;
+  float: left;
+}
+
+#珊 h1{
+  text-align: center;
+  border: 3px solid green;
+}
+
+#珊 img{
+  display: block;
+  margin: auto;
+  width: 40%;
+  border: 3px solid green;
+}
+
+#珊 p{
+  text-align: center;
+  border: 3px solid green;
+}
+
+#珊 .btn{
+  font-weight:600;
+  background:#cc8449;
+  padding:9px 25px;
+  color:white;
+  border-radius:5px;
+}
+
+#綾 .container{
+  display: block;
+  margin:2.5%;
+  width:250px;
+  height:70vh;
+  border-radius:15px;
+  background-color:#f5e9d3;
+  padding: 15px;
+  float: left;
+}
+
+#綾 h1{
+  text-align: center;
+  border: 3px solid green;
+}
+
+#綾 img{
+  display: block;
+  margin: auto;
+  width: 40%;
+  border: 3px solid green;
+}
+
+#綾 p{
+  text-align: center;
+  border: 3px solid green;
+}
+
+#綾 .btn{
+  font-weight:600;
+  background:#cc8449;
+  padding:9px 25px;
+  color:white;
+  border-radius:5px;
+}
+
+#書 .container{
+  display: block;
+  margin:2.5%;
+  width:250px;
+  height:70vh;
+  border-radius:15px;
+  background-color:#f5e9d3;
+  padding: 15px;
+  float: left;
+}
+
+#書 h1{
+  text-align: center;
+  border: 3px solid green;
+}
+
+#書 img{
+  display: block;
+  margin: auto;
+  width: 40%;
+  border: 3px solid green;
+}
+
+#書 p{
+  text-align: center;
+  border: 3px solid green;
+}
+
+#書 .btn{
+  font-weight:600;
+  background:#cc8449;
+  padding:9px 25px;
+  color:white;
+  border-radius:5px;
+}
