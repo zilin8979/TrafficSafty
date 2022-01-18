@@ -1,0 +1,136 @@
+/**{
+  border: 1px solid red;
+}*/
+img{
+    vertical-align: bottom;
+  }
+#menu{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    list-style-type: none;
+    z-index: 70;
+}
+#menu li {
+    float: left;
+    margin:  0 10px 0 0;
+    font-size: 14px;
+}
+#menu a {
+    float: left;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    border-radius: 25px;
+}
+#menu .active a {
+    color: #fff;
+    background-color: #333;
+}
+
+.section {
+    text-align: center;
+    font:1.8em "Microsoft Yahei";
+    color: #fff;
+}
+.logo img{
+    margin: 5%;
+    width:70vw;
+  }
+
+.what{
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+  }
+.what .item{
+    margin: 5%;
+    padding: 0;
+    width: 100%;
+}
+.what .text{
+    text-align: center;
+    font-size: 0.8em;
+  }
+.what .embed-container {position: relative;padding-bottom: 56.25%; height:0; overflow: hidden; width: 100%;}
+.what .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height:100%;}
+
+#carouselExampleCaptions{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.carousel-indicators{
+  bottom: 10%;
+}
+.carousel-inner{
+  border-radius: 30px;
+  top: 0;
+  margin: 15%;
+  margin-top: 8%;
+  width: 70%;
+  height: auto;
+}
+.videos .embed-container{position: relative;top:0; padding-bottom: 56.25%; height:0; overflow: hidden; max-width: 100%;}
+.videos .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height:100%;}
+
+.itemgroup{
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    margin:auto;
+  }
+.who img{
+  width: 80%;
+  margin: 5%;
+}
+.play{
+  margin: 0;
+  padding: 5%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80vh;
+}
+.play img{
+  margin: 3%;
+  height: 8vh;
+}
+.play img:hover{
+  transform: scale(5);
+}
+
+@media screen and (min-width:768px){
+    .itemgroup{
+      width: 100%;
+      display: flex;
+    }
+    .what .item{
+      width: 100%;
+      display: flex;
+    }
+    .what .video{
+      width:50%
+    }
+    .what .embed-container{
+      position: relative;
+      height: 0;
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      max-width:100%;
+    }
+    .what .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width:100%; height: 100%;}
+    .what .text{
+      display: flex;
+      margin: 3%;
+      width: 50%;
+      box-sizing: border-box;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
